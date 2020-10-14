@@ -1,6 +1,7 @@
 const CREATE_POKE = 'CREATE_POKE';
 const REMOVE_POKE = 'REMOVE_POKE';
 const CHANGE_MESS = 'CHANGE_MESS';
+const CHANGE_FILTER = 'CHANGE_FILTER';
 
 const CreatePokemon = pokemon => (
   {
@@ -23,6 +24,14 @@ const ChangeMessage = message => (
   }
 );
 
+
+const ChangeFilter = typePkm => (
+  {
+    type: CHANGE_FILTER,
+    typePkm,
+  }
+);
+
 export {
-  RemovePokemon, CreatePokemon, ChangeMessage, REMOVE_POKE, CREATE_POKE, CHANGE_MESS
+  RemovePokemon, CreatePokemon, ChangeMessage, ChangeFilter, REMOVE_POKE, CREATE_POKE, CHANGE_MESS, CHANGE_FILTER
 };
