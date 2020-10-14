@@ -24,6 +24,8 @@ code {
   align-items: center;
   margin: 5px;
   padding-top: 15px;
+  min-width: 150px;
+  max-width: 200px;
 }
 
 .d-flex-around {
