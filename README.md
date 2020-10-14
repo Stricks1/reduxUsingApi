@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-## Available Scripts
+# redux-testing-api
+On this project, I created a basic redux project to test populating React elements using async calls on API (with axios and the PokeAPI to gather data). The calls create a single pokemon card element and add to a list on our store.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+* [Installation](#installation)
+* [Built With](#built-with)
+* [Contributing](#contributing)
+* [Acknowledgments](#acknowledgments)
+* [Authors](#author)
+* [License](#license)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Installation
 
-### `yarn test`
+You can get a local copy of the repository please run the following commands on your terminal:
+```
+$ cd <folder>
+$ git clone https://github.com/Stricks1/reduxUsingApi.git
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run `npm install` and after `npm run build` in your terminal.
 
-### `yarn build`
+## Built With
+- React
+- Redux
+- HTML
+- CSS
+- Axious
+- PokeAPI
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions, issues and feature requests are welcome!
 
-### `yarn eject`
+You can do it on [issues page](issues/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Acknowledgments
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Special thanks to code reviewers.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Show your support
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Give a ⭐️ if you like this project!
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Gabriel Malheiros Silveira**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Github: [@Stricks1](https://github.com/Stricks1)
+- Linkedin: [Gabriel Silveira](https://linkedin.com/in/gabriel-malheiros-silveira/)
+- Twitter: [@Gabriel_Stricks](https://twitter.com/Gabriel_Stricks)
 
-### Code Splitting
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<strong>Creative Commons 2020</strong>
 
-### Analyzing the Bundle Size
+<!-- MARKDOWN LINKS & IMAGES -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[contributors-shield]: https://img.shields.io/github/contributors/stricks1/reduxUsingApi.svg?style=flat-square
+[contributors-url]: https://github.com/stricks1/reduxUsingApi/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/stricks1/reduxUsingApi.svg?style=flat-square
+[forks-url]: https://github.com/stricks1/reduxUsingApi/network/members
+[stars-shield]: https://img.shields.io/github/stars/stricks1/reduxUsingApi.svg?style=flat-square
+[stars-url]: https://github.com/stricks1/reduxUsingApi/stargazers
+[issues-shield]: https://img.shields.io/github/issues/stricks1/reduxUsingApi.svg?style=flat-square
+[issues-url]: https://github.com/stricks1/reduxUsingApi/issues
