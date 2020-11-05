@@ -11,7 +11,6 @@ On this project, I created a basic redux project to test populating React elemen
 * [Installation](#installation)
 * [Built With](#built-with)
 * [Contributing](#contributing)
-* [Acknowledgments](#acknowledgments)
 * [Authors](#author)
 * [License](#license)
 
@@ -41,9 +40,6 @@ Contributions, issues and feature requests are welcome!
 
 You can do it on [issues page](issues/).
 
-## Acknowledgments
-
-Special thanks to code reviewers.
 
 ## Show your support
 
